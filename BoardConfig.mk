@@ -91,6 +91,9 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 endif
 
+# Light
+TARGET_PROVIDES_LIBLIGHT := true
+
 # NFC
 TARGET_USES_NQ_NFC := true
 
@@ -195,6 +198,9 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 ODM_MANIFEST_FILES := $(DEVICE_PATH)/configs/vintf/manifest-qva.xml
 ODM_MANIFEST_SKUS += vayu
 ODM_MANIFEST_VAYU_FILES := $(DEVICE_PATH)/configs/vintf/manifest_vayu.xml
+
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
 # VNDK
 BOARD_VNDK_VERSION := current
