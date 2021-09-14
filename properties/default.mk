@@ -47,6 +47,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.dex2oat-threads=8
 endif
 
-# IORap
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.iorapd.enable=true
