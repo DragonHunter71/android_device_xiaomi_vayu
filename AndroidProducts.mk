@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_vayu.mk
+    $(LOCAL_DIR)/kscope_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_vayu-eng \
-    spark_vayu-userdebug \
-    spark_vayu-user
+    kscope_vayu-eng \
+    kscope_vayu-userdebug \
+    kscope_vayu-user

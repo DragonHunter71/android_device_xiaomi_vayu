@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit common ArrowOS configurations
-$(call inherit-product, vendor/spark/config/common.mk)
+$(call inherit-product, vendor/kscope/config/mobile.mk)
 
-PRODUCT_NAME := spark_vayu
+PRODUCT_NAME := kscope_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
