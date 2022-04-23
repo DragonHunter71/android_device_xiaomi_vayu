@@ -496,6 +496,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor
 
+# Simple Gallery
+PRODUCT_PACKAGES += \
+    SimpleGallery
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
