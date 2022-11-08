@@ -30,3 +30,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.5.0.SJUMIXM:user/release-keys
 BLAZE_MAINTAINER := believerx79
 TARGET_USE_PIXEL_CHARGER := true
+
+# Pixel Launcher
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+PIXEL_LAUNCHER_VARIANT := fullmod2
+ICONS_VARIANT := true
