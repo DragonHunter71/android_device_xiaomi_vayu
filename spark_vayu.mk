@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit common ColtOS configurations
-$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
-PRODUCT_NAME := colt_vayu
+PRODUCT_NAME := spark_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
@@ -28,7 +28,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_MODEL=M2102J20SI
 
 BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.5.0.SJUMIXM:user/release-keys
-COLT_BUILD_MAINTAINER := KangMonkey
-COLT_BUILD_TYPE := Official
-TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GAPPS := true
+SPARK_BUILD_TYPE := Community
