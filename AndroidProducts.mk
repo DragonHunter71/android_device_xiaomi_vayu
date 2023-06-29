@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_vayu.mk
+    $(LOCAL_DIR)/superior_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_vayu-eng \
-    spark_vayu-userdebug \
-    spark_vayu-user
+    superior_vayu-eng \
+    superior_vayu-userdebug \
+    superior_vayu-user
